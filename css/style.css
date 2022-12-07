@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+body{
+    font-family: "Barlow", sans-serif ;
+    line-height: 1.7;
+    color: #516171;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    color: #092032;
+}
+a{
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/* nav bar*/
+.top-nav{
+    background-color: 	#5A5A5A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+}
+.top-nav i, 
+.top-nav span{
+    vertical-align: middle;
+}
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-size: 20px;
+   border-radius: 100%;
+}
+.social-links a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nar .nav-link:hover,
+.navbar .navbar-nar .nav-link.active{
+        color: #634f4ff8;
+
+}
+
+.logo img{
+    width: 190px;
+}
+
+/*button*/
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color:#D3D3D3 ;
+    color: #000;
+    border-color:#D3D3D3  ;
+}
+.btn-brand:hover{
+    color: #fff;
+    background-color: #7e6666;
+}
+.btn-outline{
+    border-color: #fff;
+    color: #fff;
+}
+/*slider*/
+#hero-slider h1{
+    font-weight: 700 !important;
+}
+.slide1{
+    background: linear-gradient(rgba(9,32,50,0.3),rgba(9,32,50,0.3)) , url(../img/2.jpg) ;
+}
+.slide2{
+    background: linear-gradient(rgba(9,32,50,0.3),rgba(9,32,50,0.3)) , url(../img/3.jpg) ;
+}
+.slide3{
+    background: linear-gradient(rgba(9,32,50,0.3),rgba(9,32,50,0.3)) , url(../img/4.jpg) ;
+}
+/* owl carousel*/
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    font-size: 32px;
+    margin-top: -30px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    border-radius: 100px !important;
+    align-items: center !important;
+    justify-content: center ;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: #D3D3D3 !important;
+}
+
+/*infobox*/
+.info-box{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.info-box img{
+    width: 150px;
+    margin-right: 24px;
+}
+.color{
+    background: radial-gradient( #c1c1c1, #3d3d3d);
+}
+
+/*team section*/
+.team-member{
+    text-align: center;
+}
+
+.team-member .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.team-member .overlay{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(87, 70, 67, 0.89);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.team-member .social-links{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.team-member:hover .overlay{
+    opacity: 1;
+    top:0;
+}
+.team-member:hover .social-links{
+    opacity: 1;
+    top:50%;
+}
+.team-member h5{
+    margin-top: 24px;
+
+}
+
+/*footer*/
+footer{
+    padding-top: 80px;
+    padding-bottom: 40px ;
+    color: #ffff;
+    text-align: center;
+    background: linear-gradient(rgba(9,32,50,0.8), rgba(9,32,50,08));
+}
+footer .navbar-brand{
+    color: #fff;
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+.footer-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
+}
+footer .social-links a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*buyer's css*/
+.top-logo{
+    padding-left: 520px;
+}
