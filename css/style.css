@@ -570,21 +570,22 @@ input:focus{
 .product-name, .product-price, .product-offer{
 	margin-bottom: 20px;
 }
+.product .bx{
+    position: absolute;
+    box-sizing: border-box;
+}
 .product-remove{
 	position: absolute;
-	bottom: 5px;
-	right: 5px;
+	bottom: 15px;
+	right: 15px;
 	padding: 10px 25px;
-	background-color:#D3D3D3;
 	color: rgb(0, 0, 0);
 	cursor: pointer;
 	border-radius: 5px;
 }
 .product-remove:hover{
-	background-color: #D3D3D3;
 	color: rgb(0, 0, 0);
 	font-weight: 600;
-	border: 1px solid #D3D3D3;
 }
 .product-quantity > input{
 	width: 40px;
