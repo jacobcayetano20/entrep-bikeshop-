@@ -669,7 +669,8 @@ input:focus{
 .cart-total a:hover{
 	background-color: red;
 }
-@media screen and (max-width: 700px){
+
+@media screen and (max-width: 500px){
 	.remove{
 		display: none;
 	}
@@ -684,7 +685,7 @@ input:focus{
 		margin-bottom: 10px;
 	}
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 700px){
 	.cart{
 		flex-direction: column;
 	}
@@ -693,11 +694,11 @@ input:focus{
 		margin-bottom: 20px;
 	}
 }
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1200px){
 
 	.container{
 
-		max-width: 95%;
+		max-width: 200%;
 
 	}
 
