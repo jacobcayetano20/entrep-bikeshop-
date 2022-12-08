@@ -572,19 +572,19 @@ input:focus{
 }
 .product-remove{
 	position: absolute;
-	bottom: 40px;
-	right: 20px;
+	bottom: 5px;
+	right: 5px;
 	padding: 10px 25px;
-	background-color: rgb(120, 124, 120);
-	color: #fff;
+	background-color:#D3D3D3;
+	color: rgb(0, 0, 0);
 	cursor: pointer;
 	border-radius: 5px;
 }
 .product-remove:hover{
-	background-color: white;
-	color: rgb(255, 255, 255);
+	background-color: #D3D3D3;
+	color: rgb(0, 0, 0);
 	font-weight: 600;
-	border: 1px solid rgb(59, 61, 59);
+	border: 1px solid #D3D3D3;
 }
 .product-quantity > input{
 	width: 40px;
