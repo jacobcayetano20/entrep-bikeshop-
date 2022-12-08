@@ -2,30 +2,35 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/s.png">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/boxicons.min.css ">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Buyer's | E-Commerce</title>
-    <link rel="icon" href="./img/s.png">
+    <title>Product Details | Bike Model Shop</title>
   </head>
 
   <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <nav class="top-nav" id="home">
-        <div class="container">
-            <div class="row justify-content-between">
-    
-                    <div class="top-logo">
-                        <a class="logo"><img src="./img/seller.png"></a>
-                    </div>
-             
-            </div>
-        </div>
+    <nav class="top-nav sticky-top" id="home" >
+      <div class="container">
+          <div class="row justify-content-between">
+
+              <div class="col-auto">
+                  <div class="social-links"> 
+                    <p>Follow us on | </p>
+                     <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                     <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                     <a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok' ></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-         
+          <a class="logo" href="#"><img src="">Insert Logo Here</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria- 
            controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,24 +38,24 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
 
+                 <li class="nav-item">
+                    <a class="nav-link" href="BikeModel.html">Home</a>
+                 </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#hero-slider">Home</a>
-            </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="Bmodelp.html">Products</a>
+                 </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#hero-slider">Finance</a>
-            </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                 </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#hero-slider">Reviews</a>
-            </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                 </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>  
             </ul>
-            
+
             <li class="item dropdown">
               <a class="Account dropdown-toggle" href="#" id="navbarDropdown" role="button"
                  data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,18 +66,55 @@
                   <li><a class="dropdown-item" href="index.html">LogOut</a></li>
               </ul>
           </li>
-
           </div>
         </div>
     </nav>
-    
 
 
+    <div class="small-container cart-page">
+		<table>
+			<tr>
+				<th>Product</th>
+				<th>Quantity</th>
+				<th>Subtotal</th>
+			</tr>
+            <tr>
+				<td>
+					<div class="cart-info">
+						<img src="./img/1.png">
+						<div>
+							<p>Specialized (Model)</p>
+							<small>Price: &#8369;<span> 45,000.00</span></small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" value="1"></td>
+				<td>&#8369;45,000.00</td>
+			</tr>
+        </table>
 
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal:</td>
+                    <td>&#8369; 45,000.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping Fee:</td>
+                    <td>&#8369; 2,000.00</td>
+                </tr>
+                <tr>
+                    <td>Total:</td>
+                    <td>&#8369; 47,000.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="bannerbtn"><a href="Bmodelp.html"><button class="chk">SHOP NOW</button></div></a>
 
-
-
-    <!--footer-->
+<!--footer-->
 <footer>
     <div class="footer-top">
         <div class="container">
@@ -94,9 +136,11 @@
         <p class="mb-0">Copyright@2022. All Rights Reserved</p>
       </div>
     </div>
- </footer>
+</footer>
+
 
  <script src="./js/jquery.min.js"></script>
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
  <script src="./js/bootstrap.bundle.min.js"></script>
  <script src="./js/owl.carousel.min.js"></script>
  <script src="./js/app.js"></script>
