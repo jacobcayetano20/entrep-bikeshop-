@@ -154,7 +154,7 @@ section{
     margin-right: 24px;
 }
 .color{
-    background: radial-gradient( #c1c1c1, #3d3d3d);
+    background: radial-gradient( #585757, #3d3d3d);
     padding-bottom: 150px;
     padding-top: 150px;
 }
@@ -205,7 +205,8 @@ footer{
     padding-bottom: 40px ;
     color: #ffff;
     text-align: center;
-    background: linear-gradient(rgba(9,32,50,0.8), rgba(9,32,50,08));
+    background: linear-gradient(rgba(32, 65, 90, 0.8), rgba(34, 84, 122, 0.8)), url(../img/badge2.jpeg);
+
 }
 footer .navbar-brand{
     color: #fff;
@@ -214,7 +215,7 @@ footer .navbar-brand{
 }
 
 .footer-top {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .footer-bottom{
     border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -311,13 +312,13 @@ footer .social-links a{
 }
 .content p{
     margin-left: 70px;
-    color:#000000;
+    color:#c9c2c2;
 }
 .content #shopnow{
     margin-left: 70px;
     width: 200px;
     height: 38px;
-    border: 2px solid #000000;
+    border: 2px solid #fafafa;
     font-weight: bold;
     transition: 0.5s ease;
     cursor: pointer;
@@ -408,8 +409,8 @@ footer .social-links a{
     height: 40px;
     font-size: large;
     background: transparent;
-    color: rgb(3, 3, 3);
-    border: 2px solid  #111111;
+    color: rgb(255, 255, 255);
+    border: 2px solid  #ffffff;
     transition: 0.5s ease;
     cursor: pointer;
     border-radius: 25px;
@@ -422,8 +423,10 @@ footer .social-links a{
 /*bg bike model shop*/
 
 .bg{
-    background: repeating-linear-gradient( #243b55,#141e30);
+    background: linear-gradient( #29323c,#596164,#485563);
 }
+
+
 
 /*Product Details*/
 
@@ -586,6 +589,7 @@ input:focus{
 .product-remove:hover{
 	color: rgb(0, 0, 0);
 	font-weight: 600;
+
 }
 .product-quantity > input{
 	width: 40px;
@@ -595,13 +599,17 @@ input:focus{
 .fa{
 	margin-right: 5px;
 }
+
+
 .cart-total{
 	flex: 0.25;
 	margin-left: 20px;
 	padding: 20px;
-	height: 240px;
+	height: 340px;
 	border: 1px solid silver;
 	border-radius: 5px;
+    margin-bottom: 20px;
+
 }
 .cart-total p{
 	display: flex;
@@ -614,14 +622,15 @@ input:focus{
 	text-align: center;
 	height: 40px;
 	line-height: 40px;
-	background-color: tomato;
+	background-color: rgb(107, 101, 100);
 	color: white;
 	text-decoration: none;
 }
 .cart-total a:hover{
-	background-color: red;
+	background-color: rgb(51, 49, 49);
 }
 
+/*asdasd*/
 @media screen and (max-width:800px){
     .content h3{
         margin-left: 50px;
