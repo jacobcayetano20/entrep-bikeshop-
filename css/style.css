@@ -73,12 +73,9 @@ section{
 .navbar .navbar-nar .nav-link:hover,
 .navbar .navbar-nar .nav-link.active{
         color: #634f4ff8;
-
 }
 
-.logo img{
-    width: 190px;
-}
+
 
 /*button*/
 .btn{

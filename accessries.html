@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css ">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bike Shop | E-Commerce</title>
+    <link rel="icon" href="./img/s.png">
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <nav class="top-nav sticky-top" id="home" >
+        <div class="container">
+            <div class="row justify-content-between">
+  
+                <div class="col-auto">
+                    <div class="social-links"> 
+                      <p>Follow us on | </p>
+                       <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                       <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                       <a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+          <div class="container">
+            <a class="logo" href="BikeModel.html"><img src="">Insert Logo Here</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria- 
+             controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+  
+                   <li class="nav-item">
+                      <a class="nav-link" href="#hero-slider">Home</a>
+                   </li>
+  
+                   <li class="nav-item">
+                      <a class="nav-link" href="#product-cards">Products</a>
+                   </li>
+  
+                   <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                   </li>
+
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Store's Online
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="BikeModel.html">Bike Model Shop</li>
+                      <li><a class="dropdown-item" href="#">Bike Clothing Shop</a></li> 
+                    </ul>
+                  </li>
+  
+              </ul>
+  
+              <li class="item dropdown">
+                <a class="Account dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                   <i class='bx bxs-user'></i>
+                </a>
+                <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="index.html">LogOut</a></li>
+                </ul>
+            </li>
+            </div>
+          </div>
+      </nav>
+  
+<!--banner-->
+<div class="banner">
+    <div class="content">
+        <h1>Get Free Shipping Nationwide!</h1>
+        <p>Minimum spend of ₱ 15,000.00</p>
+    </div>
+</div>
+
+<!--Slider-->
+   <div class="owl-carousel owl-theme" id="hero-slider">
+
+    <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-white">Accessories 1</h6>
+                    <h1 class="display-2 my-3 text-white text-uppercase">Details</h1>
+                    <a href="#" class="btn btn-brand">Buy Now</a>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h6 class="text-uppercase text-white">Accessories 2</h6>
+                    <h1 class="display-4 my-3 text-white text-uppercase">Details</h1>
+                    <a href="#" class="btn btn-brand">Buy Now</a>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide3 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-white">Accessories 3</h6>
+                    <h1 class="display-4 my-3 text-white text-uppercase">Details</h1>
+                    <a href="#" class="btn btn-brand">Buy Now</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!--all Products-->
+<div class="container" id="product-cards">
+    <div class = "title text-center">
+        <h2 class = "position-relative d-inline-block" id="a">Products </h2>
+    </div>
+        <!--<h1 class="text-center">Feature Products</h1>--> 
+        <div class="row" style="margin-top: 30px;">
+        <div class = "row g-0">
+            <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = ".all">All</button>
+                <button type = "button" class = "btn m-2 text-dark" data-filter = ".trek">Lights</button>
+                <button type = "button" class = "btn m-2 text-dark" data-filter = ".spe">Helmet</button>
+                <button type = "button" class = "btn m-2 text-dark" data-filter = ".shi">Wheel Set</button>
+            </div>
+             
+            <div class = "collection-list mt-4 row gx-0 gy-3">
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱ 25,000.00 <strike>₱ 60,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Top</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱ 20,000.00 </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">5%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 42,750.00 <strike>₱ 45,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱ 45,000.00</span>
+                    </div>
+                </div>
+                
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱ 27,000.00 <strike> ₱ 30,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">50%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 15,000.00 <strike>₱ 30,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                            
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱ 28,999.00 </span>
+                    </div>
+                </div>
+                
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱60,000.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">5%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱45,000.00 <strike>₱60,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Top</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱29,999.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">20%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 28,800.00 <strike>₱ 36,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>       
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱10,000.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">5%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 5,000.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱ 17,500.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱ 22,699.00 <strike>₱ 30,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>       
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>                
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱ 24,999.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱ 42,499.00 <strike>₱ 60,000.00</strike></span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Top</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 50,000.00 </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱ 7,999.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>                             
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 9,999.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Top</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                           
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱19,599.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all shi">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>       
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>      
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Shimano</p>   
+                        <span class = "fw-bold checked">₱ 13,499.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Trek</p>   
+                        <span class = "fw-bold checked">₱ 75,000.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
+                    <div class = "collection-img position-relative">
+                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">5%</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
+                            <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Specialized</p>   
+                        <span class = "fw-bold checked">₱ 55,399.00 </span>
+                    </div>
+                </div>
+
+          </div>
+
+        </div>
+
+        </div>
+
+</div> 
+
+<!--banner-->
+<div class="banner">
+    <div class="content">
+        <h1>Get Voucher Now!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
+</div> 
+
+<!--footer-->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                <a class="logo"><img src="./img/L.png"></a>
+                 <p>"Websites promote you all the time. No employee will do that for you."</p>
+                 <div class="social-links">
+                       <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                       <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                       <a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="mb-0">Copyright@2022. All Rights Reserved</p>
+      </div>
+    </div>
+ </footer>
+
+ <script src="./js/jquery.min.js"></script>
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="./js/owl.carousel.min.js"></script>
+ <script src="./js/app.js"></script>
+
+</body>
+</html>

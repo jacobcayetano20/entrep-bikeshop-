@@ -27,10 +27,10 @@
           </div>
       </div>
   </nav>
-    </nav>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-          <a class="logo" href="#"><img src="">Insert Logo Here</a>
+          <a class="logo" href="BikeModel.html"><img src="">Insert Logo Here</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria- 
            controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,10 +44,6 @@
 
                  <li class="nav-item">
                     <a class="nav-link" href="Bmodelp.html">Products</a>
-                 </li>
-
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
                  </li>
 
                  <li class="nav-item">
@@ -79,7 +75,7 @@
 				<img src="./img/1.png">
 
 				<div class="product-info">
-					<h3 class="product-name">Specialized</h3>
+					<h3 class="product-name">Bike Brand (Model)</h3>
 					<h4 class="product-price">₱ 45,000.00</h4>
 					<p class="product-quantity">Qnt: <input type="number" value="1">
 					<p class="product-remove">
@@ -122,7 +118,9 @@
 	</div>
 </div>
 
+
 <!--Modal info Checkout-->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
       <div class="modal-content">
@@ -130,44 +128,63 @@
         <div class="modal-body">
           <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8">
-                    
+                <div class="col-lg-8 ">
+
                     <form class="row g-3 gy-7 align-items-center">
                         <h1>Check Out Form</h1>
+
                         <div class="col-md-5">
                           <label for="validationDefault01" class="form-label">Fullname</label>
-                          <input type="text" class="form-control" id="validationDefault01" required>
+                          <input type="text" class="form-control" id="fname" required>
                         </div>
 
 
                         <div class="col-md-7">
                           <label for="validationDefault03" class="form-label">Permanent Address</label>
-                          <input type="text" class="form-control" id="validationDefault03" required>
+                          <input type="text" class="form-control" id="add" required>
                         </div>
 
-                        <div class="col-md-5">
+                        <div class="col-md-5 ">
                           <label for="validationDefault05" class="form-label">Contact Number</label>
-                          <input type="" class="form-control" id="validationDefault05" placeholder="+63" required>
+                          <input type="" class="form-control" id="num" placeholder="+63" required>
                         </div>  
 
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                              Cash On Delivery
-                            </label>
-                          </div>
-                          
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" disabled>
-                            <label class="form-check-label" >
-                              Online Payment
-                            </label>
-                          </div>
-
-                        <div class="col-12">
-                       <button class="btn btn-primary" type="submit">Check Out </button>
-                          <button type="button" class="btn btn-seonodary" data-bs-dismiss="modal">close</button>
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="cash" required>
+                          <label class="form-check-label" for="flexRadioDefault1">
+                          Cash On Delivery
+                          </label>
                         </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="onpay" required>
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                              <option selected>Online Payment</option>
+                              <option value="1">Payment Center / E-Wallet</option>
+                              <option value="2">Online Banking</option>
+                              <option value="3">Credit / Debit Card</option>
+                            </select>
+                          </label>
+                        </div>
+                        
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="del" required>
+                          <label class="form-check-label" for="defaultCheck1">
+                            
+                            <select class="form-select" aria-label="Disabled select example" id="del">
+                              <option selected>Select Courier</option>
+                              <option value="1">Lalamog</option>
+                              <option value="2">LBM</option>
+                              <option value="3">J&T Not Express</option>
+                            </select>
+                          </label>
+                        </div>
+
+                      <div class="col-12">
+                          <button class="btn btn-primary" type="submit" onclick="alert('Your order has beed process. Thank You for Trusting our website. :)')">Check Out </button>
+                          <button type="button" class="btn btn-seonodary" data-bs-dismiss="modal">close</button>
+                      </div>
                       </form>
                       
 
@@ -177,7 +194,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 
 <!--footer-->
 <footer>
