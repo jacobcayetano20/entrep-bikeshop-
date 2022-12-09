@@ -80,14 +80,14 @@
 
 				<div class="product-info">
 					<h3 class="product-name">Specialized</h3>
-					<h4 class="product-price">₱ 1,000</h4>
-					<p class="product-quantity">Qnt: <input type="number" value="1" name="">
+					<h4 class="product-price">₱ 45,000.00</h4>
+					<p class="product-quantity">Qnt: <input type="number" value="1">
 					<p class="product-remove">
 						<a href=""><i class='bx bx-trash' ></i></a>
 					</p>
 				</div>
 			</div>
-			<div class="product">
+		<!--<div class="product">
 				<img src="./img/2.jpg">
 				<div class="product-info">
 					<h3 class="product-name">Shimano</h3>
@@ -97,33 +97,87 @@
 						<a href=""><i class='bx bx-trash' ></i></a>
 					</p>
 				</div>
-			</div>
+			</div>-->	
 		</div>
 		<div class="cart-total">
 			<p>
-				<span>Total Price</span>
-				<span>₱ 3,000</span>
+				<span>Discount:</span>
+				<span>5%</span>
 			</p>
 			<p>
-				<span>Number of Items</span>
-				<span>2</span>
+				<span>Number of Items:</span>
+				<span>1</span>
+			</p>
+      <p>
+				<span>Shipping Fee:</span>
+				<span>₱ 500.00</span>
 			</p>
 			<p>
-				<span>You Save</span>
-				<span>₱ 1,000</span>
+				<span>Total Price:</span>
+				<span>₱ 43,250.00</span>
 			</p>
-			<a href="#">Proceed to Checkout</a>
+     
+			<a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Proceed to Checkout</a>
 		</div>
 	</div>
 </div>
 
+<!--Modal info Checkout-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    
+                    <form class="row g-3 gy-7 align-items-center">
+                        <h1>Check Out Form</h1>
+                        <div class="col-md-5">
+                          <label for="validationDefault01" class="form-label">Fullname</label>
+                          <input type="text" class="form-control" id="validationDefault01" required>
+                        </div>
 
 
+                        <div class="col-md-7">
+                          <label for="validationDefault03" class="form-label">Permanent Address</label>
+                          <input type="text" class="form-control" id="validationDefault03" required>
+                        </div>
 
+                        <div class="col-md-5">
+                          <label for="validationDefault05" class="form-label">Contact Number</label>
+                          <input type="" class="form-control" id="validationDefault05" placeholder="+63" required>
+                        </div>  
 
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Cash On Delivery
+                            </label>
+                          </div>
+                          
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" disabled>
+                            <label class="form-check-label" >
+                              Online Payment
+                            </label>
+                          </div>
 
+                        <div class="col-12">
+                       <button class="btn btn-primary" type="submit">Check Out </button>
+                          <button type="button" class="btn btn-seonodary" data-bs-dismiss="modal">close</button>
+                        </div>
+                      </form>
+                      
 
-
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!--footer-->
 <footer>
@@ -132,7 +186,7 @@
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                 <a class="logo"><img src="./img/L.png"></a>
-                 <p>Short Description of our E-Commerce Website</p>
+                 <p>"Websites promote you all the time. No employee will do that for you."</p>
                  <div class="social-links">
                        <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
                        <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
